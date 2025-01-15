@@ -38,7 +38,7 @@ export default async function page({ params: { slug } }: { params: { slug: strin
           </h2>
 
           {/* Main Body of Blog */}
-          <section className="text-lg leading-normal text-gray-800 dark:text-gray-300 text-justify">
+          <section className="text-lg leading-normal text-gray-700 dark:text-gray-300 text-justify">
             <PortableText value={data.block} />
           </section>
 
